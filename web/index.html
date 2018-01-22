@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            body {
+                padding: 15px;
+            }
+            div {
+                margin-bottom: 15px;
+            }
+            button {
+                margin-right: 15px;
+            }
+        </style>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="calculadora" method="GET" action="calculadoraServlet">
+            <div>
+                <label>Ingresa el primer número: </label><input name="n1">
+            </div>
+            <div>
+                <label>Ingresa el segundo número: </label><input name="n2">
+            </div>
+            <button type="submit" name="operacion" value="sumado">Sumar</button>
+            <button type="submit" name="operacion" value="restado">Restar</button>
+            <button type="submit" name="operacion" value="multiplicado">Multiplicar</button>
+            <button type="submit" name="operacion" value="dividido">Dividir</button>
+        </form>
+    </body>
+</html>
